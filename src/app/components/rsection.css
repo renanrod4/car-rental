@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+section.rsection{
+    .car{
+        @apply w-1/2 absolute right-0 top-1/4;
+    }
+}

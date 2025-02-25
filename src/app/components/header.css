@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header{
+    @apply flex mx-32 pt-10 justify-center items-center text-gray700 text-sm h-[13%];
+    div{
+        @apply mx-10;
+    }
+}
+
+.logo{
+    @apply flex text-blue font-semibold text-base text-center items-center gap-2;
+}
+
+.links{
+    @apply flex;
+    li{
+        @apply mx-5;
+    }
+}
+.sign{
+    @apply flex items-center justify-center gap-6;
+    button{
+        @apply bg-blue text-white px-7 py-[10px] rounded-lg;
+    }
+}

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div.body{
+    @apply items-center justify-center h-full;
+    
+    .img{
+        @apply fixed right-0 h-[120%] w-auto top-0 translate-x-32 -translate-y-10 opacity-15 ;
+    }
+    
+    main{
+        @apply flex justify-around items-center text-center h-[87%] w-full;
+        *{
+            @apply max-w-[50%]
+        }    
+    }
+}

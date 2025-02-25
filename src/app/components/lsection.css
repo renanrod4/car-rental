@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+section.lsection{
+    @apply w-full flex items-start justify-center text-start flex-col;
+    span{
+        @apply text-blue relative;
+        &::after {
+            @apply content-[''] block w-[135px] h-5 absolute left-0 bg-[url('/svgs/span.svg')] ;
+        }
+    }
+    
+    h1{
+        @apply text-5xl w-full min-w-96 mb-7 relative;
+    }
+    p{
+        @apply w-full min-w-[340px] relative;
+    }
+}
